@@ -1,0 +1,24 @@
+#numeros{
+    font-size: 150px;
+    font-weight: 600;
+}
+
+#contenedorPrincipal{
+    width: 40%;
+}
+
+@media  screen and (max-width: 767px) {
+    
+    h1{
+        font-size: medium;
+    }
+    
+    #numeros{
+        font-size: 70px;
+        font-weight: 500;
+    }    
+
+    #contenedorPrincipal{
+        width: 80%;
+    }
+}
